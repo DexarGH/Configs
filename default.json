@@ -9,6 +9,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -17,6 +28,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -261,6 +283,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Mode",
             "value": "GhostBlock"
           }
@@ -271,6 +304,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Hold"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -292,6 +336,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -551,6 +606,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
+          {
             "name": "Mode",
             "active": "Custom",
             "value": [],
@@ -666,6 +732,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -674,6 +751,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -710,6 +798,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "NoSprint",
             "value": [
               {
@@ -734,6 +833,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -743,12 +853,38 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
       {
         "name": "AntiStaff",
         "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
           {
             "name": "ShowInTabList",
             "value": true
@@ -760,6 +896,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -802,8 +949,75 @@
         ]
       },
       {
+        "name": "Assistant",
+        "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
+          {
+            "name": "Disorientation",
+            "value": "key.keyboard.m"
+          },
+          {
+            "name": "Dust",
+            "value": "key.keyboard.unknown"
+          },
+          {
+            "name": "Trap",
+            "value": "key.keyboard.n"
+          },
+          {
+            "name": "Aura",
+            "value": "key.keyboard.unknown"
+          },
+          {
+            "name": "Tornado",
+            "value": "key.keyboard.unknown"
+          },
+          {
+            "name": "Layer",
+            "value": "key.keyboard.unknown"
+          },
+          {
+            "name": "Swap delay",
+            "value": 0
+          },
+          {
+            "name": "Slot for swap",
+            "value": 8
+          }
+        ]
+      },
+      {
         "name": "AutoAccount",
         "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
           {
             "name": "Delay",
             "value": {
@@ -826,6 +1040,14 @@
           {
             "name": "LoginRegex",
             "value": "/login"
+          },
+          {
+            "name": "MessageSource",
+            "value": [
+              "Chat",
+              "Title",
+              "Subtitle"
+            ]
           }
         ]
       },
@@ -834,6 +1056,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -910,6 +1143,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -1175,6 +1419,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -1184,6 +1439,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
           },
           {
             "name": "Soup",
@@ -1618,6 +1884,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -2173,6 +2450,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Attack",
             "value": [
               {
@@ -2288,6 +2576,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "On",
             "value": []
           }
@@ -2298,6 +2597,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": true
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": true
           },
           {
@@ -2343,6 +2653,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Range",
             "value": 3.0
           },
@@ -2373,12 +2694,20 @@
                 "value": false
               },
               {
-                "name": "ToPlace",
-                "value": true
+                "name": "Auto",
+                "value": [
+                  "Jump",
+                  "Swim",
+                  "Sprint"
+                ]
               },
               {
-                "name": "AutoJump",
-                "value": false
+                "name": "MinimumDistance",
+                "value": 2.0
+              },
+              {
+                "name": "ToPlace",
+                "value": true
               },
               {
                 "name": "ToItems",
@@ -2390,6 +2719,14 @@
                   {
                     "name": "Range",
                     "value": 8.0
+                  },
+                  {
+                    "name": "Items",
+                    "value": []
+                  },
+                  {
+                    "name": "Filter",
+                    "value": "Blacklist"
                   }
                 ]
               }
@@ -2408,6 +2745,15 @@
                   "from": 1,
                   "to": 2
                 }
+              }
+            ]
+          },
+          {
+            "name": "AutoUseBoneMeal",
+            "value": [
+              {
+                "name": "Enabled",
+                "value": false
               }
             ]
           },
@@ -2640,6 +2986,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "ReelDelay",
             "value": {
               "from": 5,
@@ -2691,6 +3048,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Health",
             "value": 8.0
           },
@@ -2712,6 +3080,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -2937,6 +3316,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Presets",
             "active": "HypixelSW",
             "value": [],
@@ -3076,6 +3466,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Delay",
             "value": 0
           }
@@ -3086,6 +3487,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -3461,6 +3873,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Config",
             "value": "PikaNetwork"
           },
@@ -3528,6 +3951,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "ToolSelector",
             "active": "Dynamic",
             "value": [],
@@ -3568,6 +4002,19 @@
           {
             "name": "RequireSneaking",
             "value": false
+          },
+          {
+            "name": "RequireNearBed",
+            "value": [
+              {
+                "name": "Enabled",
+                "value": false
+              },
+              {
+                "name": "Distance",
+                "value": 10.0
+              }
+            ]
           }
         ]
       },
@@ -3576,6 +4023,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -3804,6 +4262,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -3812,6 +4281,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -3844,6 +4324,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Avoid",
             "value": [
               "Cacti",
@@ -3865,9 +4356,20 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.r",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
+          {
             "name": "Range",
             "value": {
-              "from": 3.0,
+              "from": 2.0,
               "to": 4.0
             }
           },
@@ -3921,6 +4423,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -4449,6 +4962,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Dummy",
             "value": false
           },
@@ -4487,6 +5011,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Motion",
             "value": 0.42
           }
@@ -4497,6 +5032,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -5050,6 +5596,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -5618,6 +6175,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Blocks",
             "value": [
               "minecraft:snow",
@@ -5631,6 +6199,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -5691,6 +6270,24 @@
                     "value": true
                   }
                 ]
+              },
+              "File": {
+                "name": "File",
+                "value": [
+                  {
+                    "name": "Pages",
+                    "value": 50
+                  },
+                  {
+                    "name": "Cyclic",
+                    "value": true
+                  },
+                  {
+                    "dialogMode": "OPEN_FILE",
+                    "name": "Source",
+                    "value": ""
+                  }
+                ]
               }
             },
             "valueType": "CHOICE"
@@ -5719,6 +6316,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -5991,6 +6599,19 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "SilentScreen",
+            "value": [
+              {
+                "name": "Enabled",
+                "value": false
+              },
+              {
+                "name": "UnlockCursor",
+                "value": false
+              }
+            ]
           }
         ]
       },
@@ -5999,6 +6620,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -6028,6 +6660,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -6079,6 +6722,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -6217,6 +6871,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -7318,23 +7983,21 @@
         ]
       },
       {
-        "name": "CustomItemAssistant",
-        "value": [
-          {
-            "name": "Disorientation",
-            "value": "key.keyboard.b"
-          },
-          {
-            "name": "Dust",
-            "value": "key.keyboard.unknown"
-          }
-        ]
-      },
-      {
         "name": "Damage",
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -7352,6 +8015,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -7565,6 +8239,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "EdgeDistance",
             "value": {
               "from": 0.4,
@@ -7598,6 +8283,21 @@
       {
         "name": "EasyPearl",
         "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
           {
             "name": "AimOffThreshold",
             "value": 2.0
@@ -7784,6 +8484,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Instant",
             "value": [
               "Stop"
@@ -7865,8 +8576,8 @@
                     "value": true
                   },
                   {
-                    "name": "DiveMechanics",
-                    "value": true
+                    "name": "VerticalControl",
+                    "value": 0.8
                   },
                   {
                     "name": "SmartGroundBehavior",
@@ -7877,8 +8588,8 @@
                     "value": 3.0
                   },
                   {
-                    "name": "VerticalControl",
-                    "value": 0.8
+                    "name": "DiveMechanics",
+                    "value": true
                   },
                   {
                     "name": "DiveAcceleration",
@@ -7887,6 +8598,40 @@
                   {
                     "name": "DiveEfficiency",
                     "value": 0.8
+                  }
+                ]
+              },
+              "Firework": {
+                "name": "Firework",
+                "value": [
+                  {
+                    "name": "MinSpeed",
+                    "value": 0.8
+                  },
+                  {
+                    "name": "FireDelay",
+                    "value": 1.5
+                  }
+                ]
+              },
+              "Pitch40Infinite": {
+                "name": "Pitch40Infinite",
+                "value": [
+                  {
+                    "name": "MinSpeed",
+                    "value": 25.0
+                  },
+                  {
+                    "name": "MaxSpeed",
+                    "value": 150.0
+                  },
+                  {
+                    "name": "MaxHeight",
+                    "value": 200
+                  },
+                  {
+                    "name": "PitchIncrement",
+                    "value": 3.0
                   }
                 ]
               }
@@ -7903,6 +8648,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Locked",
             "value": false
           }
@@ -7913,6 +8669,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -7959,6 +8726,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -8080,6 +8858,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Enforce",
             "value": [
               "Saddled",
@@ -8093,6 +8882,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -8127,6 +8927,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -8331,17 +9142,28 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.z",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Range",
             "value": {
-              "from": 1.0,
-              "to": 5.0
+              "from": 0.0,
+              "to": 10.0
             }
           },
           {
             "name": "Delay",
             "value": {
-              "from": 357,
-              "to": 500
+              "from": 564,
+              "to": 770
             }
           },
           {
@@ -8350,7 +9172,7 @@
           },
           {
             "name": "Mode",
-            "value": "Dynamic"
+            "value": "Constant"
           },
           {
             "name": "FlushOn",
@@ -8367,6 +9189,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -8400,6 +9233,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Hold"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -8608,6 +9452,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Cooldown",
             "value": {
               "from": 0,
@@ -8632,6 +9487,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -8691,6 +9557,21 @@
       {
         "name": "FlagCheck",
         "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
           {
             "name": "ChatMessage",
             "value": true
@@ -8756,6 +9637,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.u",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -9729,6 +10621,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.y",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Mode",
             "active": "Stationary",
             "value": [],
@@ -9780,6 +10683,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Range",
             "value": 5.0
           },
@@ -9807,23 +10721,23 @@
           {
             "name": "Targets",
             "value": [
-              "minecraft:purple_bed",
-              "minecraft:lime_bed",
-              "minecraft:magenta_bed",
-              "minecraft:black_bed",
-              "minecraft:cyan_bed",
-              "minecraft:white_bed",
-              "minecraft:light_blue_bed",
-              "minecraft:green_bed",
-              "minecraft:gray_bed",
-              "minecraft:yellow_bed",
-              "minecraft:pink_bed",
-              "minecraft:orange_bed",
-              "minecraft:light_gray_bed",
               "minecraft:brown_bed",
+              "minecraft:yellow_bed",
+              "minecraft:gray_bed",
+              "minecraft:lime_bed",
+              "minecraft:white_bed",
+              "minecraft:orange_bed",
               "minecraft:dragon_egg",
+              "minecraft:magenta_bed",
+              "minecraft:light_blue_bed",
+              "minecraft:light_gray_bed",
               "minecraft:red_bed",
-              "minecraft:blue_bed"
+              "minecraft:blue_bed",
+              "minecraft:cyan_bed",
+              "minecraft:green_bed",
+              "minecraft:black_bed",
+              "minecraft:pink_bed",
+              "minecraft:purple_bed"
             ]
           },
           {
@@ -10053,28 +10967,39 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "TargetedBlocks",
             "value": [
-              "minecraft:brown_shulker_box",
-              "minecraft:orange_shulker_box",
-              "minecraft:chest",
-              "minecraft:black_shulker_box",
-              "minecraft:light_blue_shulker_box",
-              "minecraft:trapped_chest",
-              "minecraft:green_shulker_box",
-              "minecraft:magenta_shulker_box",
-              "minecraft:white_shulker_box",
-              "minecraft:gray_shulker_box",
-              "minecraft:shulker_box",
-              "minecraft:light_gray_shulker_box",
-              "minecraft:lime_shulker_box",
               "minecraft:pink_shulker_box",
-              "minecraft:yellow_shulker_box",
-              "minecraft:cyan_shulker_box",
-              "minecraft:purple_shulker_box",
               "minecraft:ender_chest",
+              "minecraft:shulker_box",
+              "minecraft:light_blue_shulker_box",
+              "minecraft:magenta_shulker_box",
+              "minecraft:green_shulker_box",
+              "minecraft:gray_shulker_box",
+              "minecraft:lime_shulker_box",
+              "minecraft:black_shulker_box",
+              "minecraft:cyan_shulker_box",
+              "minecraft:chest",
+              "minecraft:trapped_chest",
               "minecraft:red_shulker_box",
-              "minecraft:blue_shulker_box"
+              "minecraft:brown_shulker_box",
+              "minecraft:yellow_shulker_box",
+              "minecraft:light_gray_shulker_box",
+              "minecraft:orange_shulker_box",
+              "minecraft:purple_shulker_box",
+              "minecraft:blue_shulker_box",
+              "minecraft:white_shulker_box"
             ]
           }
         ]
@@ -10084,6 +11009,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -10125,6 +11061,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Size",
             "value": 0.4
           }
@@ -10135,6 +11082,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -10652,6 +11610,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Constraints",
             "value": [
               {
@@ -10755,6 +11724,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": true
           },
           {
@@ -10835,6 +11815,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "SavePlayers",
             "value": false
           }
@@ -10843,6 +11834,21 @@
       {
         "name": "ItemScroller",
         "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
           {
             "name": "ClickMode",
             "value": "QuickMove"
@@ -10861,6 +11867,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -10895,6 +11912,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.r",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -10935,17 +11963,17 @@
           },
           {
             "name": "Range",
-            "value": 3.2
+            "value": 3.0
           },
           {
             "name": "WallRange",
-            "value": 0.0
+            "value": 2.0
           },
           {
             "name": "ScanExtraRange",
             "value": {
-              "from": 5.0,
-              "to": 7.0
+              "from": 0.0,
+              "to": 0.0
             }
           },
           {
@@ -11204,13 +12232,13 @@
                                 "name": "VerticalSpeed",
                                 "value": {
                                   "from": 10,
-                                  "to": 20
+                                  "to": 40
                                 }
                               },
                               {
                                 "name": "DirectionChangeFactor",
                                 "value": {
-                                  "from": 50,
+                                  "from": 0,
                                   "to": 100
                                 }
                               },
@@ -11324,7 +12352,7 @@
               },
               {
                 "name": "MovementCorrection",
-                "value": "Strict"
+                "value": "Silent"
               },
               {
                 "name": "ResetThreshold",
@@ -11340,7 +12368,7 @@
               },
               {
                 "name": "ThroughWalls",
-                "value": true
+                "value": false
               }
             ]
           },
@@ -11562,8 +12590,6 @@
               {
                 "name": "Auto",
                 "value": [
-                  "Jump",
-                  "Swim",
                   "Sprint"
                 ]
               },
@@ -11623,6 +12649,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -11631,6 +12668,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -11673,6 +12721,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -11924,6 +12983,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "FallHeight",
             "value": 22
           },
@@ -11939,6 +13009,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -11948,6 +13029,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
           },
           {
             "name": "Actions",
@@ -11963,6 +13055,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -11971,6 +13074,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -11988,10 +13102,91 @@
         ]
       },
       {
+        "name": "NoEntityInteract",
+        "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
+            "name": "EntityTypeFilter",
+            "value": "Blacklist"
+          },
+          {
+            "name": "EntityTypes",
+            "value": [
+              "minecraft:armor_stand",
+              "minecraft:villager"
+            ]
+          },
+          {
+            "name": "HoldingItemFilter",
+            "value": "Whitelist"
+          },
+          {
+            "name": "HoldingItems",
+            "value": [
+              "minecraft:iron_axe",
+              "minecraft:stone_pickaxe",
+              "minecraft:stone_shovel",
+              "minecraft:iron_shovel",
+              "minecraft:golden_pickaxe",
+              "minecraft:golden_shovel",
+              "minecraft:water_bucket",
+              "minecraft:stone_hoe",
+              "minecraft:golden_hoe",
+              "minecraft:netherite_axe",
+              "minecraft:netherite_hoe",
+              "minecraft:diamond_axe",
+              "minecraft:air",
+              "minecraft:tnt",
+              "minecraft:iron_pickaxe",
+              "minecraft:wooden_pickaxe",
+              "minecraft:wooden_axe",
+              "minecraft:golden_axe",
+              "minecraft:iron_hoe",
+              "minecraft:diamond_hoe",
+              "minecraft:shears",
+              "minecraft:wooden_shovel",
+              "minecraft:diamond_pickaxe",
+              "minecraft:cobweb",
+              "minecraft:diamond_shovel",
+              "minecraft:stone_axe",
+              "minecraft:wooden_hoe",
+              "minecraft:netherite_pickaxe",
+              "minecraft:netherite_shovel",
+              "minecraft:lava_bucket"
+            ]
+          }
+        ]
+      },
+      {
         "name": "NoFall",
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -12433,6 +13628,10 @@
               "BlocksMC": {
                 "name": "BlocksMC",
                 "value": []
+              },
+              "Grim2371-1.9+": {
+                "name": "Grim2371-1.9+",
+                "value": []
               }
             },
             "valueType": "CHOICE"
@@ -12449,6 +13648,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -12457,6 +13667,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -12477,6 +13698,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "ServerSide",
             "value": true
           }
@@ -12490,6 +13722,17 @@
             "value": true
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
+          {
             "name": "PushBy",
             "value": []
           }
@@ -12500,6 +13743,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -12690,11 +13944,42 @@
         ]
       },
       {
+        "name": "NoSlotSet",
+        "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          }
+        ]
+      },
+      {
         "name": "NoSlow",
         "value": [
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
           },
           {
             "name": "Blocking",
@@ -12758,6 +14043,10 @@
                     "name": "Grim2364-1.8",
                     "value": []
                   },
+                  "Grim2371": {
+                    "name": "Grim2371",
+                    "value": []
+                  },
                   "InvalidHand": {
                     "name": "InvalidHand",
                     "value": []
@@ -12816,6 +14105,10 @@
                     "name": "InvalidHand",
                     "value": []
                   },
+                  "Grim2371": {
+                    "name": "Grim2371",
+                    "value": []
+                  },
                   "Intave14": {
                     "name": "Intave14",
                     "value": [
@@ -12864,6 +14157,10 @@
                   },
                   "Grim2364-1.8": {
                     "name": "Grim2364-1.8",
+                    "value": []
+                  },
+                  "Grim2371": {
+                    "name": "Grim2371",
                     "value": []
                   },
                   "InvalidHand": {
@@ -13032,6 +14329,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "When",
             "value": [
               "MiningFatigue",
@@ -13041,10 +14349,41 @@
         ]
       },
       {
+        "name": "NoSwim",
+        "value": [
+          {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          }
+        ]
+      },
+      {
         "name": "NoWeb",
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -13073,12 +14412,29 @@
                 "name": "Intave14",
                 "value": []
               },
-              "Vulcan": {
-                "name": "Vulcan",
+              "Strafe": {
+                "name": "Strafe",
                 "value": [
                   {
                     "name": "Strength",
                     "value": 0.23
+                  },
+                  {
+                    "name": "MotionY",
+                    "value": [
+                      {
+                        "name": "Enabled",
+                        "value": false
+                      },
+                      {
+                        "name": "MotionYStrength",
+                        "value": 0.6
+                      }
+                    ]
+                  },
+                  {
+                    "name": "OnlyOnGround",
+                    "value": false
                   }
                 ]
               }
@@ -13092,6 +14448,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -13378,6 +14745,17 @@
             "value": true
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
+          {
             "name": "Constraints",
             "value": [
               {
@@ -13581,6 +14959,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -13872,6 +15261,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -13880,6 +15280,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -13921,6 +15332,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Delay",
             "value": 500
           }
@@ -13931,6 +15353,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -13949,6 +15382,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -13957,6 +15401,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -14476,6 +15931,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Clicker",
             "value": [
               {
@@ -14685,6 +16151,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "CombatReach",
             "value": 4.2
           },
@@ -14699,6 +16176,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -14766,6 +16254,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Times",
             "value": 10
           },
@@ -14780,6 +16279,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -14832,6 +16342,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -14888,6 +16409,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -15536,6 +17068,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -15544,6 +17087,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -15615,6 +17169,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Mode",
             "active": "Vanilla",
             "value": [],
@@ -15645,6 +17210,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.c",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -16589,6 +18165,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Locked",
             "value": false
           },
@@ -16632,6 +18219,17 @@
             "value": true
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
+          {
             "name": "Mode",
             "value": "Legit"
           },
@@ -16650,6 +18248,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -16735,6 +18344,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Locked",
             "value": true
           },
@@ -16757,6 +18377,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -16836,6 +18467,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -17168,9 +18810,9 @@
                   {
                     "name": "Blocks",
                     "value": [
+                      "minecraft:ender_chest",
                       "minecraft:obsidian",
-                      "minecraft:crying_obsidian",
-                      "minecraft:ender_chest"
+                      "minecraft:crying_obsidian"
                     ]
                   }
                 ]
@@ -17422,6 +19064,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "OnlyVisual",
             "value": false
           }
@@ -17432,6 +19085,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.grave.accent",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -17527,6 +19191,21 @@
         "name": "Teams",
         "value": [
           {
+            "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": true
+          },
+          {
             "name": "Matches",
             "value": [
               "ScoreboardTeam",
@@ -17546,6 +19225,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -17587,6 +19277,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -17659,6 +19360,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Mode",
             "value": "Past"
           },
@@ -17715,6 +19427,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Health",
             "value": [
               {
@@ -17764,6 +19487,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -17847,6 +19581,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Chance",
             "value": 100
           },
@@ -17905,6 +19650,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -18011,6 +19767,17 @@
             "value": false
           },
           {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
+          },
+          {
             "name": "Locked",
             "value": false
           },
@@ -18029,6 +19796,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -18094,6 +19872,17 @@
           {
             "name": "Enabled",
             "value": false
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.unknown",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
+            "value": false
           }
         ]
       },
@@ -18102,6 +19891,17 @@
         "value": [
           {
             "name": "Enabled",
+            "value": true
+          },
+          {
+            "name": "Bind",
+            "value": {
+              "boundKey": "key.keyboard.b",
+              "action": "Toggle"
+            }
+          },
+          {
+            "name": "Hidden",
             "value": false
           },
           {
@@ -18453,13 +20253,12 @@
     ]
   },
   "author": "_Dexar_",
-  "date": "28/08/2025",
-  "time": "19:25:09",
-  "clientVersion": "0.31.1",
-  "clientCommit": "git-7866e0a",
-  "serverAddress": "funsky.su",
-  "protocolName": "1.20-1.20.1",
-  "protocolVersion": 763,
+  "date": "29/08/2025",
+  "time": "15:29:27",
+  "clientVersion": "0.32.0",
+  "clientCommit": "git-20a5695",
+  "protocolName": "1.21.4",
+  "protocolVersion": 769,
   "type": "Rage",
   "status": "Bypassing"
 }
