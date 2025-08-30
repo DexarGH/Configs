@@ -6188,8 +6188,8 @@
           {
             "name": "Blocks",
             "value": [
-              "minecraft:cobweb",
-              "minecraft:snow"
+              "minecraft:snow",
+              "minecraft:cobweb"
             ]
           }
         ]
@@ -6727,13 +6727,13 @@
           {
             "name": "Bind",
             "value": {
-              "boundKey": "key.keyboard.unknown",
+              "boundKey": "key.keyboard.r",
               "action": "Toggle"
             }
           },
           {
             "name": "Hidden",
-            "value": false
+            "value": true
           },
           {
             "name": "Locked",
@@ -6835,7 +6835,7 @@
               },
               {
                 "name": "StopSprinting",
-                "value": "OnAttack"
+                "value": "Legit"
               },
               {
                 "name": "Range",
@@ -9156,19 +9156,19 @@
             "name": "Range",
             "value": {
               "from": 0.0,
-              "to": 10.0
+              "to": 2.0
             }
           },
           {
             "name": "Delay",
             "value": {
-              "from": 564,
-              "to": 770
+              "from": 789,
+              "to": 923
             }
           },
           {
             "name": "RecoilTime",
-            "value": 250
+            "value": 200
           },
           {
             "name": "Mode",
@@ -10722,21 +10722,21 @@
             "name": "Targets",
             "value": [
               "minecraft:brown_bed",
-              "minecraft:pink_bed",
-              "minecraft:orange_bed",
-              "minecraft:blue_bed",
+              "minecraft:yellow_bed",
+              "minecraft:gray_bed",
               "minecraft:lime_bed",
+              "minecraft:orange_bed",
+              "minecraft:white_bed",
+              "minecraft:magenta_bed",
+              "minecraft:light_blue_bed",
+              "minecraft:light_gray_bed",
+              "minecraft:dragon_egg",
               "minecraft:red_bed",
+              "minecraft:blue_bed",
               "minecraft:cyan_bed",
               "minecraft:black_bed",
-              "minecraft:light_blue_bed",
-              "minecraft:magenta_bed",
-              "minecraft:dragon_egg",
-              "minecraft:yellow_bed",
-              "minecraft:light_gray_bed",
-              "minecraft:white_bed",
               "minecraft:green_bed",
-              "minecraft:gray_bed",
+              "minecraft:pink_bed",
               "minecraft:purple_bed"
             ]
           },
@@ -10981,25 +10981,25 @@
             "name": "TargetedBlocks",
             "value": [
               "minecraft:black_shulker_box",
-              "minecraft:orange_shulker_box",
-              "minecraft:shulker_box",
-              "minecraft:chest",
-              "minecraft:ender_chest",
-              "minecraft:green_shulker_box",
-              "minecraft:lime_shulker_box",
-              "minecraft:blue_shulker_box",
-              "minecraft:cyan_shulker_box",
-              "minecraft:purple_shulker_box",
               "minecraft:magenta_shulker_box",
-              "minecraft:brown_shulker_box",
+              "minecraft:ender_chest",
+              "minecraft:purple_shulker_box",
               "minecraft:gray_shulker_box",
               "minecraft:pink_shulker_box",
-              "minecraft:red_shulker_box",
-              "minecraft:white_shulker_box",
+              "minecraft:lime_shulker_box",
               "minecraft:light_blue_shulker_box",
-              "minecraft:light_gray_shulker_box",
               "minecraft:trapped_chest",
-              "minecraft:yellow_shulker_box"
+              "minecraft:red_shulker_box",
+              "minecraft:green_shulker_box",
+              "minecraft:brown_shulker_box",
+              "minecraft:chest",
+              "minecraft:shulker_box",
+              "minecraft:white_shulker_box",
+              "minecraft:light_gray_shulker_box",
+              "minecraft:orange_shulker_box",
+              "minecraft:yellow_shulker_box",
+              "minecraft:blue_shulker_box",
+              "minecraft:cyan_shulker_box"
             ]
           }
         ]
@@ -12002,7 +12002,7 @@
             "value": [
               {
                 "name": "AngleSmooth",
-                "active": "Acceleration",
+                "active": "Minarai",
                 "value": [],
                 "choices": {
                   "Linear": {
@@ -12087,8 +12087,8 @@
                       {
                         "name": "YawAcceleration",
                         "value": {
-                          "from": 15.0,
-                          "to": 18.0
+                          "from": 12.0,
+                          "to": 14.0
                         }
                       },
                       {
@@ -12232,7 +12232,7 @@
                                 "name": "VerticalSpeed",
                                 "value": {
                                   "from": 10,
-                                  "to": 40
+                                  "to": 30
                                 }
                               },
                               {
@@ -12360,7 +12360,7 @@
               },
               {
                 "name": "TicksUntilReset",
-                "value": 3
+                "value": 1
               },
               {
                 "name": "RotationTiming",
@@ -13137,36 +13137,36 @@
           {
             "name": "HoldingItems",
             "value": [
-              "minecraft:iron_hoe",
-              "minecraft:stone_axe",
-              "minecraft:diamond_axe",
+              "minecraft:iron_pickaxe",
               "minecraft:cobweb",
               "minecraft:stone_shovel",
-              "minecraft:wooden_pickaxe",
-              "minecraft:stone_pickaxe",
-              "minecraft:lava_bucket",
-              "minecraft:stone_hoe",
-              "minecraft:golden_axe",
-              "minecraft:iron_shovel",
-              "minecraft:wooden_hoe",
-              "minecraft:diamond_shovel",
-              "minecraft:shears",
-              "minecraft:iron_pickaxe",
-              "minecraft:water_bucket",
-              "minecraft:netherite_axe",
-              "minecraft:netherite_pickaxe",
-              "minecraft:golden_hoe",
-              "minecraft:netherite_shovel",
-              "minecraft:diamond_hoe",
-              "minecraft:netherite_hoe",
-              "minecraft:iron_axe",
-              "minecraft:wooden_axe",
-              "minecraft:tnt",
-              "minecraft:diamond_pickaxe",
-              "minecraft:air",
               "minecraft:golden_shovel",
               "minecraft:wooden_shovel",
-              "minecraft:golden_pickaxe"
+              "minecraft:stone_axe",
+              "minecraft:golden_axe",
+              "minecraft:netherite_pickaxe",
+              "minecraft:netherite_axe",
+              "minecraft:diamond_hoe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:stone_hoe",
+              "minecraft:wooden_axe",
+              "minecraft:iron_shovel",
+              "minecraft:shears",
+              "minecraft:netherite_hoe",
+              "minecraft:lava_bucket",
+              "minecraft:golden_pickaxe",
+              "minecraft:iron_hoe",
+              "minecraft:tnt",
+              "minecraft:iron_axe",
+              "minecraft:diamond_axe",
+              "minecraft:air",
+              "minecraft:diamond_shovel",
+              "minecraft:golden_hoe",
+              "minecraft:stone_pickaxe",
+              "minecraft:wooden_pickaxe",
+              "minecraft:netherite_shovel",
+              "minecraft:wooden_hoe",
+              "minecraft:water_bucket"
             ]
           }
         ]
@@ -18810,9 +18810,9 @@
                   {
                     "name": "Blocks",
                     "value": [
+                      "minecraft:ender_chest",
                       "minecraft:obsidian",
-                      "minecraft:crying_obsidian",
-                      "minecraft:ender_chest"
+                      "minecraft:crying_obsidian"
                     ]
                   }
                 ]
@@ -20252,13 +20252,14 @@
       }
     ]
   },
-  "author": "_Dexar_",
+  "author": "GlumDore",
   "date": "30/08/2025",
-  "time": "14:43:29",
+  "time": "21:40:48",
   "clientVersion": "0.32.0",
   "clientCommit": "git-20a5695",
-  "protocolName": "1.21.4",
-  "protocolVersion": 769,
+  "serverAddress": "prostotrainer.space",
+  "protocolName": "1.20-1.20.1",
+  "protocolVersion": 763,
   "type": "Rage",
   "status": "Bypassing"
 }
