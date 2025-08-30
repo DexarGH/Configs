@@ -4358,7 +4358,7 @@
           {
             "name": "Bind",
             "value": {
-              "boundKey": "key.keyboard.r",
+              "boundKey": "key.keyboard.unknown",
               "action": "Toggle"
             }
           },
@@ -6188,8 +6188,8 @@
           {
             "name": "Blocks",
             "value": [
-              "minecraft:snow",
-              "minecraft:cobweb"
+              "minecraft:cobweb",
+              "minecraft:snow"
             ]
           }
         ]
@@ -10722,21 +10722,21 @@
             "name": "Targets",
             "value": [
               "minecraft:brown_bed",
-              "minecraft:yellow_bed",
-              "minecraft:gray_bed",
-              "minecraft:lime_bed",
-              "minecraft:white_bed",
-              "minecraft:orange_bed",
-              "minecraft:dragon_egg",
-              "minecraft:magenta_bed",
-              "minecraft:light_blue_bed",
-              "minecraft:light_gray_bed",
-              "minecraft:red_bed",
-              "minecraft:blue_bed",
-              "minecraft:cyan_bed",
-              "minecraft:green_bed",
-              "minecraft:black_bed",
               "minecraft:pink_bed",
+              "minecraft:orange_bed",
+              "minecraft:blue_bed",
+              "minecraft:lime_bed",
+              "minecraft:red_bed",
+              "minecraft:cyan_bed",
+              "minecraft:black_bed",
+              "minecraft:light_blue_bed",
+              "minecraft:magenta_bed",
+              "minecraft:dragon_egg",
+              "minecraft:yellow_bed",
+              "minecraft:light_gray_bed",
+              "minecraft:white_bed",
+              "minecraft:green_bed",
+              "minecraft:gray_bed",
               "minecraft:purple_bed"
             ]
           },
@@ -10980,26 +10980,26 @@
           {
             "name": "TargetedBlocks",
             "value": [
-              "minecraft:pink_shulker_box",
-              "minecraft:ender_chest",
-              "minecraft:shulker_box",
-              "minecraft:light_blue_shulker_box",
-              "minecraft:magenta_shulker_box",
-              "minecraft:green_shulker_box",
-              "minecraft:gray_shulker_box",
-              "minecraft:lime_shulker_box",
               "minecraft:black_shulker_box",
-              "minecraft:cyan_shulker_box",
-              "minecraft:chest",
-              "minecraft:trapped_chest",
-              "minecraft:red_shulker_box",
-              "minecraft:brown_shulker_box",
-              "minecraft:yellow_shulker_box",
-              "minecraft:light_gray_shulker_box",
               "minecraft:orange_shulker_box",
-              "minecraft:purple_shulker_box",
+              "minecraft:shulker_box",
+              "minecraft:chest",
+              "minecraft:ender_chest",
+              "minecraft:green_shulker_box",
+              "minecraft:lime_shulker_box",
               "minecraft:blue_shulker_box",
-              "minecraft:white_shulker_box"
+              "minecraft:cyan_shulker_box",
+              "minecraft:purple_shulker_box",
+              "minecraft:magenta_shulker_box",
+              "minecraft:brown_shulker_box",
+              "minecraft:gray_shulker_box",
+              "minecraft:pink_shulker_box",
+              "minecraft:red_shulker_box",
+              "minecraft:white_shulker_box",
+              "minecraft:light_blue_shulker_box",
+              "minecraft:light_gray_shulker_box",
+              "minecraft:trapped_chest",
+              "minecraft:yellow_shulker_box"
             ]
           }
         ]
@@ -11989,7 +11989,7 @@
               },
               {
                 "name": "Priority",
-                "value": "HurtTime"
+                "value": "Health"
               },
               {
                 "name": "IgnoreShield",
@@ -12002,7 +12002,7 @@
             "value": [
               {
                 "name": "AngleSmooth",
-                "active": "Minarai",
+                "active": "Acceleration",
                 "value": [],
                 "choices": {
                   "Linear": {
@@ -12087,15 +12087,15 @@
                       {
                         "name": "YawAcceleration",
                         "value": {
-                          "from": 79.4,
-                          "to": 114.1
+                          "from": 15.0,
+                          "to": 18.0
                         }
                       },
                       {
                         "name": "PitchAccelelation",
                         "value": {
-                          "from": 68.3,
-                          "to": 96.2
+                          "from": 20.0,
+                          "to": 50.0
                         }
                       },
                       {
@@ -12103,7 +12103,7 @@
                         "value": [
                           {
                             "name": "Enabled",
-                            "value": false
+                            "value": true
                           },
                           {
                             "name": "CoefDistance",
@@ -12134,11 +12134,11 @@
                           },
                           {
                             "name": "YawAccelError",
-                            "value": 0.1
+                            "value": 0.2
                           },
                           {
                             "name": "PitchAccelError",
-                            "value": 0.1
+                            "value": 0.15
                           }
                         ]
                       },
@@ -12151,11 +12151,11 @@
                           },
                           {
                             "name": "YawConstantError",
-                            "value": 0.277
+                            "value": 0.336
                           },
                           {
                             "name": "PitchConstantError",
-                            "value": 0.405
+                            "value": 0.228
                           }
                         ]
                       },
@@ -12360,7 +12360,7 @@
               },
               {
                 "name": "TicksUntilReset",
-                "value": 1
+                "value": 3
               },
               {
                 "name": "RotationTiming",
@@ -12377,7 +12377,7 @@
             "value": [
               {
                 "name": "HighestPoint",
-                "value": "Head"
+                "value": "Body"
               },
               {
                 "name": "LowestPoint",
@@ -12396,7 +12396,7 @@
                 "value": [
                   {
                     "name": "Enabled",
-                    "value": true
+                    "value": false
                   },
                   {
                     "name": "YawOffset",
@@ -12466,7 +12466,7 @@
                 "value": [
                   {
                     "name": "Enabled",
-                    "value": true
+                    "value": false
                   },
                   {
                     "name": "Threshold",
@@ -12483,7 +12483,7 @@
               },
               {
                 "name": "ShrinkBox",
-                "value": 0.05
+                "value": 0.3
               },
               {
                 "name": "DynamicShrinkBox",
@@ -12493,9 +12493,7 @@
           },
           {
             "name": "Requires",
-            "value": [
-              "Weapon"
-            ]
+            "value": []
           },
           {
             "name": "Raycast",
@@ -12590,16 +12588,18 @@
               {
                 "name": "Auto",
                 "value": [
+                  "Jump",
+                  "Swim",
                   "Sprint"
                 ]
               },
               {
                 "name": "OpponentRange",
-                "value": 0.51
+                "value": 2.0
               },
               {
                 "name": "DangerousYaw",
-                "value": 55.0
+                "value": 90.0
               },
               {
                 "name": "RunawayOnCooldown",
@@ -13137,36 +13137,36 @@
           {
             "name": "HoldingItems",
             "value": [
-              "minecraft:iron_axe",
-              "minecraft:stone_pickaxe",
-              "minecraft:stone_shovel",
-              "minecraft:iron_shovel",
-              "minecraft:golden_pickaxe",
-              "minecraft:golden_shovel",
-              "minecraft:water_bucket",
-              "minecraft:stone_hoe",
-              "minecraft:golden_hoe",
-              "minecraft:netherite_axe",
-              "minecraft:netherite_hoe",
-              "minecraft:diamond_axe",
-              "minecraft:air",
-              "minecraft:tnt",
-              "minecraft:iron_pickaxe",
-              "minecraft:wooden_pickaxe",
-              "minecraft:wooden_axe",
-              "minecraft:golden_axe",
               "minecraft:iron_hoe",
-              "minecraft:diamond_hoe",
-              "minecraft:shears",
-              "minecraft:wooden_shovel",
-              "minecraft:diamond_pickaxe",
-              "minecraft:cobweb",
-              "minecraft:diamond_shovel",
               "minecraft:stone_axe",
+              "minecraft:diamond_axe",
+              "minecraft:cobweb",
+              "minecraft:stone_shovel",
+              "minecraft:wooden_pickaxe",
+              "minecraft:stone_pickaxe",
+              "minecraft:lava_bucket",
+              "minecraft:stone_hoe",
+              "minecraft:golden_axe",
+              "minecraft:iron_shovel",
               "minecraft:wooden_hoe",
+              "minecraft:diamond_shovel",
+              "minecraft:shears",
+              "minecraft:iron_pickaxe",
+              "minecraft:water_bucket",
+              "minecraft:netherite_axe",
               "minecraft:netherite_pickaxe",
+              "minecraft:golden_hoe",
               "minecraft:netherite_shovel",
-              "minecraft:lava_bucket"
+              "minecraft:diamond_hoe",
+              "minecraft:netherite_hoe",
+              "minecraft:iron_axe",
+              "minecraft:wooden_axe",
+              "minecraft:tnt",
+              "minecraft:diamond_pickaxe",
+              "minecraft:air",
+              "minecraft:golden_shovel",
+              "minecraft:wooden_shovel",
+              "minecraft:golden_pickaxe"
             ]
           }
         ]
@@ -15340,11 +15340,11 @@
           },
           {
             "name": "Hidden",
-            "value": false
+            "value": true
           },
           {
             "name": "Delay",
-            "value": 500
+            "value": 300
           }
         ]
       },
@@ -18537,8 +18537,8 @@
           {
             "name": "Blocks",
             "value": [
-              "minecraft:ender_chest",
               "minecraft:obsidian",
+              "minecraft:ender_chest",
               "minecraft:crying_obsidian"
             ]
           },
@@ -18810,9 +18810,9 @@
                   {
                     "name": "Blocks",
                     "value": [
-                      "minecraft:ender_chest",
                       "minecraft:obsidian",
-                      "minecraft:crying_obsidian"
+                      "minecraft:crying_obsidian",
+                      "minecraft:ender_chest"
                     ]
                   }
                 ]
@@ -20253,8 +20253,8 @@
     ]
   },
   "author": "_Dexar_",
-  "date": "29/08/2025",
-  "time": "15:29:27",
+  "date": "30/08/2025",
+  "time": "14:43:29",
   "clientVersion": "0.32.0",
   "clientCommit": "git-20a5695",
   "protocolName": "1.21.4",
