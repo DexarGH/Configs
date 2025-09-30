@@ -748,7 +748,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           }
         ]
       },
@@ -768,7 +768,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Limit",
@@ -878,7 +878,7 @@
         "value": [
           {
             "name": "Enabled",
-            "value": true
+            "value": false
           },
           {
             "name": "Bind",
@@ -889,7 +889,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "ShowInTabList",
@@ -2568,7 +2568,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Ignore",
@@ -4560,7 +4560,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Range",
@@ -6924,7 +6924,7 @@
         "value": [
           {
             "name": "Enabled",
-            "value": true
+            "value": false
           },
           {
             "name": "Bind",
@@ -6935,7 +6935,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Locked",
@@ -7033,7 +7033,7 @@
             "value": [
               {
                 "name": "Enabled",
-                "value": false
+                "value": true
               },
               {
                 "name": "StopSprinting",
@@ -8332,7 +8332,7 @@
             "value": [
               {
                 "name": "Enabled",
-                "value": true
+                "value": false
               },
               {
                 "name": "WaitUntilCombat",
@@ -8422,7 +8422,7 @@
             "value": [
               {
                 "name": "Enabled",
-                "value": false
+                "value": true
               }
             ]
           },
@@ -9350,7 +9350,7 @@
           {
             "name": "Bind",
             "value": {
-              "boundKey": "key.keyboard.z",
+              "boundKey": "key.keyboard.unknown",
               "action": "Toggle"
             }
           },
@@ -9763,7 +9763,7 @@
         "value": [
           {
             "name": "Enabled",
-            "value": true
+            "value": false
           },
           {
             "name": "Bind",
@@ -9774,11 +9774,11 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "ChatMessage",
-            "value": false
+            "value": true
           },
           {
             "name": "Notification",
@@ -10837,7 +10837,7 @@
           },
           {
             "name": "Mode",
-            "active": "Stationary",
+            "active": "Cancel",
             "value": [],
             "choices": {
               "Queue": {
@@ -10846,7 +10846,7 @@
                   {
                     "name": "Origin",
                     "value": [
-                      "Outgoing"
+                      "Incoming"
                     ]
                   }
                 ]
@@ -10925,23 +10925,23 @@
           {
             "name": "Targets",
             "value": [
-              "minecraft:purple_bed",
-              "minecraft:light_blue_bed",
-              "minecraft:black_bed",
-              "minecraft:yellow_bed",
-              "minecraft:dragon_egg",
               "minecraft:cyan_bed",
-              "minecraft:orange_bed",
-              "minecraft:pink_bed",
+              "minecraft:purple_bed",
+              "minecraft:black_bed",
               "minecraft:magenta_bed",
-              "minecraft:brown_bed",
+              "minecraft:yellow_bed",
               "minecraft:blue_bed",
-              "minecraft:red_bed",
-              "minecraft:light_gray_bed",
-              "minecraft:green_bed",
-              "minecraft:white_bed",
               "minecraft:gray_bed",
-              "minecraft:lime_bed"
+              "minecraft:light_gray_bed",
+              "minecraft:orange_bed",
+              "minecraft:lime_bed",
+              "minecraft:light_blue_bed",
+              "minecraft:dragon_egg",
+              "minecraft:green_bed",
+              "minecraft:red_bed",
+              "minecraft:white_bed",
+              "minecraft:brown_bed",
+              "minecraft:pink_bed"
             ]
           },
           {
@@ -11184,9 +11184,9 @@
           {
             "name": "TargetedBlocks",
             "value": [
-              "minecraft:trapped_chest",
               "minecraft:ender_chest",
-              "minecraft:chest"
+              "minecraft:chest",
+              "minecraft:trapped_chest"
             ]
           }
         ]
@@ -12135,7 +12135,7 @@
                   {
                     "name": "Minimum",
                     "value": {
-                      "from": 0.9,
+                      "from": 0.84,
                       "to": 0.95
                     }
                   },
@@ -12161,7 +12161,7 @@
           },
           {
             "name": "Range",
-            "value": 3.0
+            "value": 3.15
           },
           {
             "name": "WallRange",
@@ -12170,8 +12170,8 @@
           {
             "name": "ScanExtraRange",
             "value": {
-              "from": 1.0,
-              "to": 2.0
+              "from": 3.0,
+              "to": 5.0
             }
           },
           {
@@ -12228,24 +12228,24 @@
                       {
                         "name": "HorizontalTurnSpeed",
                         "value": {
-                          "from": 112.8,
-                          "to": 180.0
+                          "from": 50.9,
+                          "to": 94.5
                         }
                       },
                       {
                         "name": "VerticalTurnSpeed",
                         "value": {
-                          "from": 38.3,
+                          "from": 51.8,
                           "to": 92.1
                         }
                       },
                       {
                         "name": "Steepness",
-                        "value": 2.6
+                        "value": 2.0
                       },
                       {
                         "name": "Midpoint",
-                        "value": 1.0
+                        "value": 0.95
                       }
                     ]
                   },
@@ -12255,27 +12255,27 @@
                       {
                         "name": "HorizontalSpeed",
                         "value": {
-                          "from": 80,
-                          "to": 85
+                          "from": 70,
+                          "to": 95
                         }
                       },
                       {
                         "name": "VerticalSpeed",
                         "value": {
-                          "from": 20,
-                          "to": 25
+                          "from": 5,
+                          "to": 30
                         }
                       },
                       {
                         "name": "DirectionChangeFactor",
                         "value": {
-                          "from": 95,
+                          "from": 50,
                           "to": 100
                         }
                       },
                       {
                         "name": "Midpoint",
-                        "value": 0.35
+                        "value": 0.9
                       }
                     ]
                   },
@@ -12285,8 +12285,8 @@
                       {
                         "name": "YawAcceleration",
                         "value": {
-                          "from": 22.0,
-                          "to": 25.0
+                          "from": 20.0,
+                          "to": 100.0
                         }
                       },
                       {
@@ -12328,7 +12328,7 @@
                         "value": [
                           {
                             "name": "Enabled",
-                            "value": false
+                            "value": true
                           },
                           {
                             "name": "YawAccelError",
@@ -12345,7 +12345,7 @@
                         "value": [
                           {
                             "name": "Enabled",
-                            "value": false
+                            "value": true
                           },
                           {
                             "name": "YawConstantError",
@@ -12406,15 +12406,15 @@
                               {
                                 "name": "HorizontalSpeed",
                                 "value": {
-                                  "from": 40,
-                                  "to": 70
+                                  "from": 50,
+                                  "to": 100
                                 }
                               },
                               {
                                 "name": "VerticalSpeed",
                                 "value": {
-                                  "from": 3,
-                                  "to": 5
+                                  "from": 5,
+                                  "to": 8
                                 }
                               },
                               {
@@ -12426,7 +12426,7 @@
                               },
                               {
                                 "name": "Midpoint",
-                                "value": 0.6
+                                "value": 0.0
                               }
                             ]
                           },
@@ -12437,7 +12437,7 @@
                                 "name": "HorizontalTurnSpeed",
                                 "value": {
                                   "from": 1.0,
-                                  "to": 11.6
+                                  "to": 5.0
                                 }
                               },
                               {
@@ -12465,7 +12465,7 @@
                           },
                           {
                             "name": "Pitch",
-                            "value": 0.59
+                            "value": 1.0
                           }
                         ]
                       }
@@ -12538,7 +12538,7 @@
               },
               {
                 "name": "ResetThreshold",
-                "value": 1.0
+                "value": 4.0
               },
               {
                 "name": "TicksUntilReset",
@@ -12698,7 +12698,7 @@
           },
           {
             "name": "KeepSprint",
-            "value": false
+            "value": true
           },
           {
             "name": "IgnoreOpenInventory",
@@ -12706,7 +12706,7 @@
           },
           {
             "name": "SimulateInventoryClosing",
-            "value": true
+            "value": false
           },
           {
             "name": "AutoBlocking",
@@ -13232,14 +13232,12 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Actions",
             "value": [
-              "PlacingWhileBreaking",
-              "AttackingWhileUsing",
-              "BreakingWhileUsing"
+              "AttackingWhileUsing"
             ]
           }
         ]
@@ -13284,7 +13282,7 @@
           },
           {
             "name": "Speed",
-            "value": 0.32
+            "value": 0.337
           },
           {
             "name": "OnlyInVehicle",
@@ -13332,36 +13330,36 @@
           {
             "name": "HoldingItems",
             "value": [
-              "minecraft:iron_pickaxe",
-              "minecraft:netherite_shovel",
-              "minecraft:diamond_hoe",
-              "minecraft:golden_shovel",
-              "minecraft:wooden_pickaxe",
-              "minecraft:diamond_pickaxe",
-              "minecraft:stone_axe",
-              "minecraft:golden_pickaxe",
-              "minecraft:wooden_hoe",
-              "minecraft:tnt",
-              "minecraft:netherite_pickaxe",
-              "minecraft:shears",
-              "minecraft:iron_axe",
-              "minecraft:water_bucket",
-              "minecraft:netherite_axe",
-              "minecraft:wooden_axe",
-              "minecraft:diamond_shovel",
-              "minecraft:netherite_hoe",
-              "minecraft:cobweb",
-              "minecraft:iron_hoe",
               "minecraft:diamond_axe",
-              "minecraft:stone_pickaxe",
-              "minecraft:air",
-              "minecraft:stone_shovel",
-              "minecraft:golden_hoe",
-              "minecraft:lava_bucket",
+              "minecraft:iron_hoe",
+              "minecraft:diamond_hoe",
+              "minecraft:netherite_pickaxe",
+              "minecraft:wooden_pickaxe",
+              "minecraft:iron_axe",
               "minecraft:stone_hoe",
               "minecraft:wooden_shovel",
+              "minecraft:iron_pickaxe",
+              "minecraft:golden_shovel",
+              "minecraft:stone_pickaxe",
               "minecraft:iron_shovel",
-              "minecraft:golden_axe"
+              "minecraft:tnt",
+              "minecraft:stone_axe",
+              "minecraft:netherite_axe",
+              "minecraft:wooden_hoe",
+              "minecraft:cobweb",
+              "minecraft:water_bucket",
+              "minecraft:netherite_hoe",
+              "minecraft:stone_shovel",
+              "minecraft:golden_axe",
+              "minecraft:shears",
+              "minecraft:golden_pickaxe",
+              "minecraft:lava_bucket",
+              "minecraft:netherite_shovel",
+              "minecraft:diamond_pickaxe",
+              "minecraft:golden_hoe",
+              "minecraft:wooden_axe",
+              "minecraft:diamond_shovel",
+              "minecraft:air"
             ]
           }
         ]
@@ -13856,7 +13854,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           }
         ]
       },
@@ -14664,7 +14662,7 @@
           },
           {
             "name": "Mode",
-            "active": "Instant",
+            "active": "Legit",
             "value": [],
             "choices": {
               "Legit": {
@@ -14948,7 +14946,7 @@
           {
             "name": "Bind",
             "value": {
-              "boundKey": "key.keyboard.unknown",
+              "boundKey": "key.keyboard.g",
               "action": "Toggle"
             }
           },
@@ -14963,14 +14961,14 @@
                 "name": "StartDelay",
                 "value": {
                   "from": 1,
-                  "to": 2
+                  "to": 5
                 }
               },
               {
                 "name": "ClickDelay",
                 "value": {
-                  "from": 2,
-                  "to": 4
+                  "from": 1,
+                  "to": 7
                 }
               },
               {
@@ -14995,11 +14993,11 @@
           },
           {
             "name": "SwitchMode",
-            "value": "Automatic"
+            "value": "PickUp"
           },
           {
             "name": "SwitchDelay",
-            "value": 50
+            "value": 268
           },
           {
             "name": "Cycle",
@@ -15014,11 +15012,11 @@
               },
               {
                 "name": "SwitchDelay",
-                "value": 0
+                "value": 268
               },
               {
                 "name": "SwitchBackDelay",
-                "value": 40
+                "value": 337
               },
               {
                 "name": "Health",
@@ -15029,7 +15027,7 @@
                   },
                   {
                     "name": "HealthThreshold",
-                    "value": 14
+                    "value": 4
                   },
                   {
                     "name": "Safety",
@@ -15081,7 +15079,7 @@
               },
               {
                 "name": "SendDirectly",
-                "value": false
+                "value": true
               }
             ]
           },
@@ -15090,7 +15088,7 @@
             "value": [
               {
                 "name": "Enabled",
-                "value": true
+                "value": false
               },
               {
                 "name": "OnlyWhileCrystalAura",
@@ -15111,7 +15109,7 @@
             "value": [
               {
                 "name": "Enabled",
-                "value": true
+                "value": false
               },
               {
                 "name": "GappleBind",
@@ -18380,7 +18378,7 @@
           },
           {
             "name": "Mode",
-            "active": "Polar-29.03.2025",
+            "active": "Vulcan288",
             "value": [],
             "choices": {
               "Vanilla": {
@@ -18388,7 +18386,7 @@
                 "value": [
                   {
                     "name": "Motion",
-                    "value": 0.3
+                    "value": 0.093
                   }
                 ]
               },
@@ -18426,7 +18424,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Mode",
@@ -18465,7 +18463,7 @@
           },
           {
             "name": "Mode",
-            "active": "Instant",
+            "active": "Legit",
             "value": [],
             "choices": {
               "Instant": {
@@ -18590,7 +18588,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Mode",
@@ -18608,7 +18606,7 @@
                     "name": "ReSprint",
                     "value": {
                       "from": 1,
-                      "to": 1
+                      "to": 2
                     }
                   }
                 ]
@@ -18641,7 +18639,7 @@
           },
           {
             "name": "Chance",
-            "value": 85
+            "value": 100
           },
           {
             "name": "Conditions",
@@ -18739,9 +18737,9 @@
           {
             "name": "Blocks",
             "value": [
+              "minecraft:crying_obsidian",
               "minecraft:obsidian",
-              "minecraft:ender_chest",
-              "minecraft:crying_obsidian"
+              "minecraft:ender_chest"
             ]
           },
           {
@@ -19012,12 +19010,12 @@
                   {
                     "name": "Blocks",
                     "value": [
+                      "minecraft:obsidian",
                       "minecraft:cobblestone",
+                      "minecraft:crying_obsidian",
                       "minecraft:dirt",
                       "minecraft:netherrack",
-                      "minecraft:obsidian",
-                      "minecraft:ender_chest",
-                      "minecraft:crying_obsidian"
+                      "minecraft:ender_chest"
                     ]
                   }
                 ]
@@ -20102,7 +20100,7 @@
           },
           {
             "name": "Hidden",
-            "value": true
+            "value": false
           },
           {
             "name": "Locked",
@@ -20206,7 +20204,7 @@
                 "value": [
                   {
                     "name": "Chance",
-                    "value": 100.0
+                    "value": 99.28
                   },
                   {
                     "name": "JumpByReceivedHits",
@@ -20218,8 +20216,8 @@
                       {
                         "name": "HitsUntilJump",
                         "value": {
-                          "from": 2,
-                          "to": 2
+                          "from": 0,
+                          "to": 1
                         }
                       }
                     ]
@@ -20234,7 +20232,7 @@
                       {
                         "name": "UntilJump",
                         "value": {
-                          "from": 2,
+                          "from": 1,
                           "to": 2
                         }
                       }
@@ -20457,8 +20455,8 @@
     ]
   },
   "author": "_Dexar_",
-  "date": "10/09/2025",
-  "time": "18:04:01",
+  "date": "30/09/2025",
+  "time": "11:45:05",
   "clientVersion": "0.33.0",
   "clientCommit": "git-a961adb",
   "protocolName": "1.21.4",
