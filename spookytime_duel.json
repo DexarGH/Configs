@@ -8162,7 +8162,7 @@
           },
           {
             "name": "Mode",
-            "active": "None",
+            "active": "Jump",
             "value": [],
             "choices": {
               "None": {
@@ -8203,7 +8203,7 @@
                   },
                   {
                     "name": "CheckKillaura",
-                    "value": true
+                    "value": false
                   },
                   {
                     "name": "CheckAutoClicker",
@@ -13390,13 +13390,13 @@
               {
                 "name": "CPS",
                 "value": {
-                  "from": 1,
-                  "to": 3
+                  "from": 8,
+                  "to": 10
                 }
               },
               {
                 "name": "Technique",
-                "value": "NormalDistribution"
+                "value": "Stabilized"
               },
               {
                 "name": "ItemCooldown",
@@ -13535,7 +13535,7 @@
                         "name": "HorizontalSpeed",
                         "value": {
                           "from": 71,
-                          "to": 97
+                          "to": 99
                         }
                       },
                       {
@@ -13669,6 +13669,22 @@
                           },
                           "19KC8KP": {
                             "name": "19KC8KP",
+                            "value": []
+                          },
+                          "Hjonk2ks": {
+                            "name": "Hjonk2ks",
+                            "value": []
+                          },
+                          "Hjonk15ks": {
+                            "name": "Hjonk15ks",
+                            "value": []
+                          },
+                          "hjonk": {
+                            "name": "hjonk",
+                            "value": []
+                          },
+                          "Funtime": {
+                            "name": "Funtime",
                             "value": []
                           }
                         }
@@ -22881,13 +22897,13 @@
     ]
   },
   "author": "nEkita",
-  "date": "02/08/2026",
-  "time": "17:25:23",
+  "date": "03/08/2026",
+  "time": "17:56:03",
   "clientVersion": "0.39.0",
   "clientCommit": "git-9ae66bd",
   "serverAddress": "spookytime.su",
-  "protocolName": "1.21.4",
-  "protocolVersion": 769,
+  "protocolName": "1.21.11",
+  "protocolVersion": 774,
   "type": "Rage",
   "status": "Bypassing"
 }
